@@ -412,7 +412,7 @@
                 <p class="text-social">Subscribe</p>
                
             <form class="subscribe-form">
-                <label class="subscribe-form">
+                <label class="subscribe-label">
                     <input class="subscribe-input" type="email" name="email" placeholder="E-mail">
                 </label>
                 <button class="subscribe-btn" type="submit">Subscribe
@@ -429,9 +429,20 @@
         </div>
     </footer>
 
-<div class="modal-overlay">
+<div class="modal-window">
     <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+            <svg class="modal-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-facebook">
+                </use>
+            </svg>
+        </button>
         <p>Leave your contacts and we will call you back</p>
+        <form>
+            <label>
+                <input type="text" name="user-name">
+            </label>
+        </form>
     </div>
 </div>
 

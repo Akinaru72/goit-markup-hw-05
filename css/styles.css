@@ -634,6 +634,7 @@ margin-bottom: 16px;
         border-radius: 4px;
       /*  width: 264px;*/
         height: 40px;
+        width: 264px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
         padding-left: 16px;
@@ -641,14 +642,17 @@ margin-bottom: 16px;
         font-weight: 400;
             font-size: 12px;
         
-        line-height: 1.25;
-        letter-spacing: 0.03em;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        
         color: #fff;
 
         background-color: transparent;
     }
 
-.subscribe{
+.subscribe-form{
+    display: flex;
+    gap: 24px;
   
 }
  
@@ -659,7 +663,25 @@ margin-bottom: 16px;
         width: 165px;
         height: 40px;
         background: #4d5ae5;
- }
+
+        min-width: 165px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+border: none;
+
+ }  
+.subscribe-item {
+    
+ margin-left: 16px; 
+
+}
 .modal-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);

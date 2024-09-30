@@ -474,15 +474,17 @@
                 <textarea class="modal-comment-textarea" name="user-comment" id="user-comment"  placeholder="Text input"></textarea>
             </div>
             <div class="modal-privacy">
-                    <input class="modal-privacy-input" type="checkbox" name="user-privacy" id="user-privacy" value="true">visually-hidden
+                    <input class="modal-privacy-input visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
                     <label class="modal-privacy-label" for="user-privacy">
                         
                         <span class="modal-span">
                             <svg class="modal-icon" width="10" height="8">
                             <use href="./images/icons.svg#icon-facebook"></use>
-                            I accept the terms and conditions of the>
+                            </svg>
                         </span>
-                            <a class="modal-privacy-text" href="Privacy Policy"></a>
+                        I accept the terms and conditions of the
+                        <a class="modal-privacy-text" href="">Privacy Policy"> </a>
+
                     </label>
             </div>
             
@@ -497,6 +499,9 @@
 </div>
 
 
+
+<button class="modal__button-submit" type="submit">Send</button>
+</form>
 
 <!--<div class="modal-field">
     <label class="modal-label" for="user-name"></label>

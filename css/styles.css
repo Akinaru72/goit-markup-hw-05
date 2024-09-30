@@ -858,7 +858,7 @@ margin-bottom: 24px;
     justify-content: center;
     fill: transparent;
 }
-.modal-privacy-checkbox:checked .modal-span {
+.visually-hidden:checked .modal-span {
 
     background-color:#404bbf;
     border: none;

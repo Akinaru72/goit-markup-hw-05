@@ -475,13 +475,21 @@
             </div>
             <div class="modal-privacy">
                     <input class="visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
-                    <label class="modal-privacy-label" for="user-privacy"><span class="modal-span">
-                        <svg class="modal-icon" width="10" height="8">
-                        <use href="./images/icons.svg#icon-facebook">
-                        </use>
-                    </span>I accept the terms and conditions of the</label>
+                    <label class="modal-privacy-label" for="user-privacy">
+                        <input class="modal-privacy-checkbox" type="checkbox" name="checkbox">>
+                        <span class="modal-span">
+                            <svg class="modal-icon" width="10" height="8">
+                            <use href="./images/icons.svg#icon-facebook"></use>
+                            I accept the terms and conditions of the>
+                            <a class="modal-privacy-text" href="Privacy Policy"></a>
+                        </span>
+                    </label>
+            </div>
+            <div class="modal-btn">
 
-
+                <button class="modal-btn-send" type="submit">
+                    Send
+                </button>
 
             </div>
         </form>

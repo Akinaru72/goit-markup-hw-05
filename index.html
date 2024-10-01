@@ -54,7 +54,7 @@
                 <h1 class="main-hero-title">Effective Solutions <br />
                     for Your Business</h1>
                    
-                <button class="bttn" type="button" >Order Service</button>
+                <button class="bttn" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
 
@@ -429,14 +429,16 @@
         </div>
     </footer>
 
-<div class="modal-window">
+<div class="modal-window is-hidden" data-modal>
     <div class="modal">
-        <button class="modal-btn" type="button" data-modal-close>
+        <button class="modal-btn" type="button"  data-modal-open>
             <svg class="modal-icon-btn" width="8" height="8">
                 <use href="./images/icons.svg#icon-facebook">
                 </use>
             </svg>
         </button>
+
+
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form class="modal-form">
             <div class="modal-label-input-icon">
@@ -474,22 +476,26 @@
 
             <div class="modal-comment">
                 <label class="modal-label" for="user-comment">Comment</label>
-                <textarea class="modal-comment-textarea" name="user-comment" id="user-comment"  placeholder="Text input"></textarea>
+                <textarea class="modal-comment-textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
             </div>
 
             <div class="modal-privacy">
-                <input class="modal-privacy-input" type="checkbox" name="user-privacy" id="user-privacy" value="true" />
+                <input class="modal-privacy-input visually-hidden" type="checkbox" 
+                name="user-privacy" 
+                id="user-privacy" 
+                value="true" />
                 <label class="modal-privacy-label" for="user-privacy">
                         
-                    <span class="modal-span">
-                        <svg class="modal-icon" width="10" height="8">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </span>
-                    I accept the terms and conditions of the
-                    <a class="modal-privacy-text" href="">Privacy Policy</a>
+                <span class="modal-span">
+                    <svg class="modal-icon" width="10" height="8">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </span>
 
-                    </label>
+                I accept the terms and conditions of the
+                <a class="modal-privacy-text" href="">Privacy Policy</a>
+
+                </label>
             </div>
 
             <button class="modal-btn-send" type="submit">Send</button>
